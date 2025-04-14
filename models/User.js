@@ -22,14 +22,6 @@ const userSchema = new mongoose.Schema({
         type: Object,
         default: {},
     },
-    password: {
-        type: String,
-        required: true,
-    },
-    isAdmin: {
-        type: Boolean,
-        default: false,
-    },
 }, {
     minimize: false
 })
