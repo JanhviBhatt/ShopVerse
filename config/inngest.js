@@ -29,7 +29,7 @@ export const syncUserCreation = inngest.createFunction(
 // func to updata user data in database
 export const syncUserUpdation = inngest.createFunction(
     {
-        id:'updata-user-from-clerk'
+        id:'update-user-from-clerk'
     },
     {
         event: 'clerk/user.updated',
