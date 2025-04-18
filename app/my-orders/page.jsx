@@ -17,30 +17,29 @@ const MyOrders = () => {
     const [loading, setLoading] = useState(true);
 
     const fetchOrders = async () => {
-        
-       try{
 
-        const token = await getToken();
-        const {data} = await axios.get('/api/order/list', {
-            headers: {
-                Authorization: `Bearer ${token}`
+        try {
+            const token = await getToken();
+            const { data } = await axios.get('/api/order/list', {
+                headers: {
+                    Authorization: `Bearer ${token}`
+                }
+            })
+
+            if (data.success) {
+                setOrders(data.orders.reverse());
+                setLoading(false);
+            } else {
+                toast.error(data.message);
             }
-        })
-        console.log(data)
-        if(data.success){
-            setOrders(data.orders.reverse());
-            setLoading(false);
-        }else{
-            toast.error(data.message);
-        }
 
-       }catch(error){
-        toast.error(error.message);
-       }
+        } catch (error) {
+            toast.error(error.message);
+        }
     }
 
     useEffect(() => {
-        if(user){
+        if (user) {
             fetchOrders();
         }
     }, [user]);
