@@ -36,11 +36,4 @@ Shopverse is a full-stack, modern fashion e-commerce application built with the 
 
 
 
-## 📦 Getting Started
-
-### 1. Clone the Repository
-
-
-git clone https://github.com/yourusername/shopverse.git
-cd shopverse
 
