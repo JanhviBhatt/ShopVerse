@@ -44,6 +44,3 @@ Shopverse is a full-stack, modern fashion e-commerce application built with the 
 git clone https://github.com/yourusername/shopverse.git
 cd shopverse
 
-Author
-Janhvi Bhatt
-🔗 GitHub | LinkedIn | Portfolio
