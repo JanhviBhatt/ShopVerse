@@ -2,7 +2,6 @@
 
 Shopverse is a full-stack, modern fashion e-commerce application built with the MERN stack and server-side rendered with Next.js. It provides a seamless shopping experience with robust authentication, image management, order tracking, and background task automation.
 
-![Shopverse Banner](https://your-cloudinary-link/banner.jpg)
 
 ---
 
