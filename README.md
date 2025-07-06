@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🛍️ Shopverse – Fashion E-Commerce Platform
 
-## Getting Started
+Shopverse is a full-stack, modern fashion e-commerce application built with the MERN stack and server-side rendered with Next.js. It provides a seamless shopping experience with robust authentication, image management, order tracking, and background task automation.
 
-First, run the development server:
+![Shopverse Banner](https://your-cloudinary-link/banner.jpg)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Features
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- 🔐 **Authentication & Authorization**: Secure login/signup using [Clerk](https://clerk.dev)
+- 🖼️ **Media Upload**: Image optimization and hosting using [Cloudinary](https://cloudinary.com)
+- 📦 **Product & Order Management**: Admin and user views for browsing, managing, and purchasing products
+- ⚙️ **API Communication**: Efficient client-server interaction with [Axios](https://axios-http.com/)
+- 🔄 **Background Tasks**: Email notifications, order workflows via [Inngest](https://www.inngest.com/)
+- 🌐 **Server-Side Rendering**: Enhanced SEO and performance with [Next.js](https://nextjs.org)
+- 🛒 **Shopping Cart**: Add, remove, update cart items with real-time UI updates
+- 📊 **MongoDB Integration**: Robust database schema for products, orders, and users
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🛠️ Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+**Frontend**
+- React.js
+- Next.js (SSR)
+- Tailwind CSS
+- Clerk (Authentication)
+- Axios
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Backend**
+- Node.js
+- Express.js
+- MongoDB & Mongoose
+- Cloudinary (Media)
+- Inngest (Background tasks)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📦 Getting Started
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 1. Clone the Repository
+
+
+git clone https://github.com/yourusername/shopverse.git
+cd shopverse
+
+Author
+Janhvi Bhatt
+🔗 GitHub | LinkedIn | Portfolio
